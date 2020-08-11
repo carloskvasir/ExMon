@@ -1,6 +1,6 @@
 # ExMon
 
-**TODO: Add description**
+![Logo elixir](logo.jpg)
 
 ## Descrição
 
