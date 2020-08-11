@@ -1,6 +1,13 @@
 defmodule ExMon.Game.Actions do
   alias ExMon.Game
 
+  def attack(move) do
+    case Game.turn() do
+      :player -> "Ataca o computador"
+      :computer -> "ataca o jogador"
+    end
+  end
+
   def fetch_move(move) do
     Game.player()
     |> Map.get(:moves)
