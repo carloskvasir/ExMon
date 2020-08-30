@@ -1,10 +1,11 @@
 defmodule ExMon.Game.Actions do
   alias ExMon.Game
+  alias ExMon.Game.Actions.Attack
 
   def attack(move) do
     case Game.turn() do
-      :player -> "Ataca o computador"
-      :computer -> "ataca o jogador"
+      :player -> Attack.attack_opponent(:computer, move)
+      :computer -> Attack.attack_opponent(:player, move)
     end
   end
 
