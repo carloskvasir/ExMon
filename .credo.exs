@@ -96,7 +96,7 @@
         {Credo.Check.Readability.AliasOrder, []},
         {Credo.Check.Readability.FunctionNames, []},
         {Credo.Check.Readability.LargeNumbers, []},
-        {Credo.Check.Readability.MaxLineLength, [priority: :low, max_length: 80]},
+        {Credo.Check.Readability.MaxLineLength, [priority: :low, max_length: 120]},
         {Credo.Check.Readability.ModuleAttributeNames, []},
         {Credo.Check.Readability.ModuleDoc, false},
         {Credo.Check.Readability.ModuleNames, []},
@@ -132,7 +132,6 @@
         #
         ## Warnings
         #
-        {Credo.Check.Warning.ApplicationConfigInModuleAttribute, []},
         {Credo.Check.Warning.BoolOperationOnSameValues, []},
         {Credo.Check.Warning.ExpensiveEmptyEnumCheck, []},
         {Credo.Check.Warning.IExPry, []},
@@ -166,7 +165,6 @@
         {Credo.Check.Readability.MultiAlias, false},
         {Credo.Check.Readability.Specs, false},
         {Credo.Check.Readability.SinglePipe, false},
-        {Credo.Check.Readability.BlockPipe, false},
         {Credo.Check.Readability.WithCustomTaggedTuple, false},
         {Credo.Check.Refactor.ABCSize, false},
         {Credo.Check.Refactor.AppendSingleItem, false},
