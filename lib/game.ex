@@ -1,12 +1,4 @@
 defmodule ExMon.Game do
-  @doc """
-  %{
-    computer: computer,
-    player: player,
-    turn: :player, #ou :computer
-    status: :started
-  }
-  """
   alias ExMon.Player
   use Agent
 
